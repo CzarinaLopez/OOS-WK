@@ -1,0 +1,124 @@
+body
+{
+	font-family: calibri, sans serif;
+	margin: 0;
+}
+/*nav*/
+#logo
+{
+	height: 150px;
+	float: left;
+	margin: 0%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+/*icon home, about etc...*/
+#menuicon{
+	margin-right:auto;
+	margin-left: auto;
+	width: 50px;
+	height: 50px;
+}
+/*end of footer*/
+.dropdown-content li 
+{   
+    text-decoration: none;
+    display: block;
+    height: 100px;
+    position: relative;
+}
+li a:hover{
+	text-decoration: none;
+}
+
+
+/*-------laman mga pictures------*/
+.slider-right
+{
+	width:10%;
+	font-size: 20px;
+	text-align: center;
+	position: fixed;
+	top: 143px;
+	overflow: hidden;
+	height: 100%;
+	padding: 0;
+}
+li a{
+	font-size: 19px;
+	text-decoration: none;
+}
+#account li
+{
+	height:90px;
+	width: 130px;
+	position: relative;
+	padding-top: 5%;
+	border: none;
+	font-weight: bold;
+	float: right;
+}
+#account li:hover
+{
+	height:80px;
+	text-decoration:none;
+	border: solid;
+	border-style: dotted;
+}
+/*------------------------*/
+#prod
+{
+	width: 90%;
+	float: right;
+	margin-top: 160px; 
+
+}
+#prod img
+{
+	margin:5px;
+	width: 279px;	
+	height: 330px;
+}
+.product
+{
+	border: none;
+	width:288px;
+	margin:0;
+	padding: 1px;
+	margin-left: 8px;
+	float: left;
+}
+.product p
+{
+	font-size: 30px;
+	margin:0; 
+	text-align: center;
+}
+
+/*----WELCOME CUSTOMER PAGE---*/
+
+#welcome
+{
+	top: 150;
+	width: 90%;
+	float: right;
+	position: relative;
+}
+p
+{
+	margin-left: 3%;
+	margin-right: 3%;
+}
+#container
+{
+	position: relative;
+	display: inline-block;
+}
+#tryagain
+{
+	width: 700px;
+	float: right;
+	margin-top: 200px;
+	margin-right:300px;
+}

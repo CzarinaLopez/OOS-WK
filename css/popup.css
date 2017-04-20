@@ -1,0 +1,247 @@
+/*.box 
+{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.overlay 
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.92);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index:1;
+}
+.overlay:target
+{
+  visibility: visible;
+  opacity: 1;
+}
+.popup
+{
+  top: 150px;
+  margin: 70px auto;
+  padding: 10px 5px 5px 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 710px;
+  position: relative;
+  height: 400px;
+  transition: all 5s ease-in-out;
+  border-width: 6px;
+}
+.popup h2
+{
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+    padding-top: 0px;
+    border-bottom-width: 2px;
+    padding-bottom: 10px;
+  margin-bottom: 0;
+  padding-left: 34px;
+}
+.popup .close
+{
+  position: relative;
+  float: right;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  padding:10px;
+  top: -25px;
+}
+.popup .close:hover
+{
+  color: #06D85F;
+}
+.popup .content
+{
+  overflow: auto;
+  height: 450px;
+}
+#view
+{
+    height: 360px;
+    width: 310px;
+
+}
+#option
+{
+  width: 300px;
+  height: 250px;
+  position: relative;
+  float: right;
+}
+#name, #name p
+{
+  /*background-color: rgba(13, 13, 13, 0.62);
+  color: white;----
+  padding:5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0px;
+    margin-bottom: 0px;
+"
+}
+#size
+{
+  margin-top: 15px;
+}
+#size [name='Size']
+{
+  width: 200px;
+  height: 30px;
+}
+#check li
+{
+  padding:10px;
+  float: left;
+}
+.content 
+{
+  height: 360px;
+}
+#comments
+{
+  padding: 2px;
+  overflow: auto;
+}
+.comment
+{
+  padding: 4px;
+}*/
+.box 
+{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.overlay 
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.92);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index:1;
+}
+.overlay:target
+{
+  visibility: visible;
+  opacity: 1;
+}
+.popup
+{
+  top: 150px;
+  margin: 70px auto;
+  padding: 10px 5px 5px 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 710px;
+  position: relative;
+  height: 400px;
+  transition: all 5s ease-in-out;
+  border-width: 6px;
+}
+.popup h2
+{
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+    padding-top: 0px;
+    border-bottom-width: 2px;
+    padding-bottom: 10px;
+  margin-bottom: 0;
+  padding-left: 34px;
+}
+.popup .close
+{
+  position: relative;
+  float: right;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  padding:10px;
+  top: -25px;
+}
+.popup .close:hover
+{
+  color: #06D85F;
+}
+.popup .content
+{
+  overflow: auto;
+  height: 450px;
+}
+#view
+{
+    height: 380px;
+    width: 310px;
+
+}
+#option
+{
+  width: 330px;
+  position: relative;
+  float: right;
+  margin: 0px 3px 0 0;
+}
+#name, #name p
+{
+  /*background-color: rgba(13, 13, 13, 0.62);
+  color: white;*/
+  padding:5px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 35px;
+}
+#size
+{
+  margin-top: 15px;
+}
+#size [name='Size']
+{
+  width: 200px;
+  height: 30px;
+}
+#check li
+{
+  padding:10px;
+  float: left;
+}
+.content 
+{
+  height: 360px;
+}
+#comments
+{
+  padding: 2px;
+  height: 150px;
+  overflow: auto;
+}
+.comment
+{
+  padding: 4px;
+}
+
+
+.btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+.btn { margin-bottom:10px; }

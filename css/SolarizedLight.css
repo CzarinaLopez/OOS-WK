@@ -1,0 +1,146 @@
+.container-fluid
+{
+	background-color: #FDF6E3;
+}
+#logo
+{
+	background-color: #657A81;
+}
+li a
+{
+	color: #63654c;
+}
+/*nav sa baba*/
+#footer
+{ 
+	background:rgba(130, 125, 125, 0.80);
+ }
+#footer p, #footer a
+{
+	
+	color: /*#63654c*/ white;
+	
+}
+#footer a:hover
+{
+	background-color: rgba(13, 13, 13, 0.49);
+	color:white;
+}
+li a:hover{
+    background-color: rgba(13, 13, 13, 0.49);
+	color:white;
+}
+#l a:hover
+{
+	background-color: black;
+	color: white;
+}
+#active{
+	background-color: rgba(144, 163, 199, 0.49);
+	border-top: 2px;
+}
+.b
+{
+	color: black;
+}
+#reg{
+	background-color: rgba(218, 218, 218, 0.75);
+}
+
+/*-------slider end------*/
+
+/*-------laman mga pictures------*/
+#account li a{
+	color: #839496;
+}
+#account li
+{
+	background-color: rgba(13, 13, 13, 0.49);
+}
+#account li:hover
+{
+	background-color: rgba(13, 13, 13, 0.90);
+	border-color: white;
+}
+/*------------------------*/
+
+.register h3, .login h3, .login span, #about h1, #prod h1 {
+	color: #B58900;
+}
+.register p, .login p,#about, #prod p, .PersonalInfo span, .loginInfo span {
+	color:  #2AA198;
+}
+.regButton, .login input[type="submit"], #login input[type="submit"]{
+	background:#657A81;
+	color: #FFF;
+}
+.regButton:hover, .login input[type="submit"]:hover{
+	background:gray;
+	color:#fff;
+}
+.login input[type="submit"]:hover{
+	background:gray;
+}
+.login input[type="password"] {
+	outline-color:#fb4d01;
+}
+form{
+	boreder: 2px solid black;
+}
+/*-----------------container-------------*
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+---------------signup-------*/
+.PersonalInfo h3, .loginInfo h3 {
+	color:#fd926d;
+}
+
+.PersonalInfo input[type="text"], .loginInfo input[type="text"], .loginInfo input[type="password"] {
+	border: 1px solid dark gray;
+	outline-color:#FF5B36;
+}
+
+.register-but  input[type="submit"] {
+	background:black;
+	color: #FFF;
+	
+}
+.register-but input[type="submit"]:hover {
+	background:gray;
+}
+
+#login span {
+	color: #66cc33;
+}
+#login input[type="text"] {
+	border: 1px solid #DDDBDB;
+	outline-color:#fb4d01;
+	
+}
+#login input[type="password"]
+{
+	border: 1px solid #DDDBDB;
+	outline-color:#fb4d01;
+	
+}
+#login input[type="submit"]:hover
+{
+	background:#000;
+	color:#fff;
+}
+/*about.php*/
+
+
+#act
+{
+	background-color: rgba(13, 13, 13, 0.90);
+}
+.regButton
+{
+	background-color: #657A81;
+}
